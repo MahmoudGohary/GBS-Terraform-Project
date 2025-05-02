@@ -35,12 +35,6 @@ module "security_groups" {
   Owner       = var.Owner
 }
 
-module "s3" {
-  source      = "./modules/s3"
-  Environment = var.Environment
-  Owner       = var.Owner
-}
-
 module "ec2_key_pair" {
   source = "./modules/ec2_key_pair"
 }
