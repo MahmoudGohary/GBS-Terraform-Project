@@ -1,9 +1,0 @@
-# Ignore .terrafrom file
-.terraform
-.terraform*
-terraform.tfstate.backup
-.terraform.lock.hcl
-
-# ignore state files
-*state*
-mykey.pem
